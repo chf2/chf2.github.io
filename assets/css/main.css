@@ -2024,10 +2024,6 @@
 			width: 100%;
 		}
 
-		.image.resume:hover {
-			cursor: default;
-		}
-
 		.image.thumb {
 			text-align: center;
 		}
@@ -2061,8 +2057,8 @@
 				opacity: 1.0;
 			}
 
-			.image.resume:hover:after {
-				opacity: 0;
+			.resume:after {
+				content: 'View PDF';
 			}
 /*
 			.image.thumb:hover:before {
