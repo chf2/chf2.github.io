@@ -1760,7 +1760,7 @@
 	}
 
 	#two h2 {
-		margin-bottom: .25em;
+		margin-bottom: .75em;
 	}
 
 /* Form */
@@ -2007,7 +2007,7 @@
 		position: relative;
 	}
 
-		.image:not(.resume):hover:before {
+		.image:not(.resume, .avatar):hover:before {
 			-moz-transition: opacity 0.2s ease-in-out;
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
@@ -2028,7 +2028,7 @@
 			text-align: center;
 		}
 
-			.image:after {
+			.image:not(.avatar):after {
 				-moz-transition: opacity 0.2s ease-in-out;
 				-webkit-transition: opacity 0.2s ease-in-out;
 				-ms-transition: opacity 0.2s ease-in-out;
