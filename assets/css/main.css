@@ -1715,11 +1715,11 @@
 		text-align: center;
 	}
 
-	#one header {
+	#intro header {
 		text-align: center;
 	}
 
-	#one ul {
+	#intro ul {
 		width: 530px;
 		margin: 0 auto;
 	}
@@ -1759,7 +1759,7 @@
 		font-size: 2em;
 	}
 
-	#two h2 {
+	#projects h2 {
 		margin-bottom: .75em;
 	}
 
@@ -2057,7 +2057,7 @@
 				opacity: 1.0;
 			}
 
-			#resume:after {
+			#resume-img:after {
 				-moz-transition: opacity 0.2s ease-in-out;
 				-webkit-transition: opacity 0.2s ease-in-out;
 				-ms-transition: opacity 0.2s ease-in-out;
@@ -2082,7 +2082,7 @@
 				white-space: nowrap;
 			}
 
-			#resume:hover:after {
+			#resume-img:hover:after {
 				opacity: 1.0;
 			}
 /*
