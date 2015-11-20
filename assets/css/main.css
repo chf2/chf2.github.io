@@ -2057,8 +2057,33 @@
 				opacity: 1.0;
 			}
 
-			.resume:after {
-				content: 'View PDF';
+			#resume:after {
+				-moz-transition: opacity 0.2s ease-in-out;
+				-webkit-transition: opacity 0.2s ease-in-out;
+				-ms-transition: opacity 0.2s ease-in-out;
+				transition: opacity 0.2s ease-in-out;
+				border-radius: 0.35em;
+				border: solid 3px rgba(27, 89, 133, 1);
+				background: rgba(27, 89, 133, .9);
+				color: #fff;
+				content: 'View Resume';
+				display: inline-block;
+				font-size: 1.2em;
+				font-weight: 400;
+				left: 50%;
+				transform: translateX(-50%) translateY(-50%);
+				line-height: 2.25em;
+				opacity: 0;
+				padding: 0 1.5em;
+				position: absolute;
+				text-align: center;
+				text-decoration: none;
+				top: 50%;
+				white-space: nowrap;
+			}
+
+			#resume:hover:after {
+				opacity: 1.0;
 			}
 /*
 			.image.thumb:hover:before {
